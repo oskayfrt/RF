@@ -56,16 +56,19 @@ function generateHearts() {
     }, heartInterval);
 }
 
+
 function createHeart(symbol) {
     const heart = document.createElement('div');
     heart.classList.add('heart');
     heart.textContent = symbol;
-    heart.style.left = Math.random() * window.innerWidth + 'px';    
-    heart.style.top = Math.random() * window.innerHeight + 'px';             
+    heart.style.color = 'white';
+    heart.style.left = Math.random() * window.innerWidth + 'px';
+    heart.style.top = Math.random() * window.innerHeight + 'px';
     heart.style.animationName = 'heartAnimation';
     heart.style.animationDuration = '.9s';
     document.body.appendChild(heart);
 }
+
 
 const btn = document.getElementById('noButton');
 

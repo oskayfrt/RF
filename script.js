@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const heartColors = ['#ff5e5e', '#ffb6b6', '#ff8484', '#ff9292', '#ffaaaa']; 
 const heartInterval = 15; 
-const numberOfHearts = 500; 
+const numberOfHearts = 100; 
 
 const yesButton = document.getElementById('yesButton');
 
@@ -48,7 +48,7 @@ yesButton.addEventListener('click', function () {
 
 function generateHearts() {
     const symbols = ['💕','RÜMEYSA❤️FIRAT'];
-    const heartInterval = 100;
+    const heartInterval = 300;
 
     setInterval(() => {
         const symbol = symbols[Math.floor(Math.random() * symbols.length)];   

@@ -48,7 +48,7 @@ yesButton.addEventListener('click', function () {
 
 function generateHearts() {
     const symbols = ['💕','RÜMEYSA❤️FIRAT'];
-    const heartInterval = 300;
+    const heartInterval = 400;
 
     setInterval(() => {
         const symbol = symbols[Math.floor(Math.random() * symbols.length)];   

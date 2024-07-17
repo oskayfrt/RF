@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const heartColors = ['#ff5e5e', '#ffb6b6', '#ff8484', '#ff9292', '#ffaaaa']; 
 const heartInterval = 15; 
-const numberOfHearts = 100; 
+const numberOfHearts = 20; 
 
 const yesButton = document.getElementById('yesButton');
 
